@@ -3,7 +3,8 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    bool gameHasEnded = false; // use boolean to prevent game from ending several times in a frame
+    public bool gameHasEnded = false; // use boolean to prevent game from ending several times in a frame
+    public bool gameHasComplete = false;
 
     public float restartDelay = 1f;
 
@@ -12,6 +13,7 @@ public class GameManager : MonoBehaviour
     public void CompleteLevel()
     {
         completeLevelUI.SetActive(true);
+        gameHasComplete = true;
     }
 
     public void EndGame()
