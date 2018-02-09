@@ -936,11 +936,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7d83ea6e71e0a9647b9dc96d66d757f3, type: 2}
   m_IsPrefabParent: 0
---- !u!4 &927597442 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4046061091213762, guid: 7d83ea6e71e0a9647b9dc96d66d757f3,
-    type: 2}
-  m_PrefabInternal: {fileID: 927597441}
 --- !u!1001 &959309925
 Prefab:
   m_ObjectHideFlags: 0
@@ -1855,7 +1850,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 124265187}
-  lastObj: {fileID: 927597442}
   scoreText: {fileID: 1453179802}
 --- !u!114 &1453179802
 MonoBehaviour:
@@ -2015,8 +2009,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45ff71beea0f07445b52484f4050e38e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameHasEnded: 0
-  gameHasComplete: 0
   restartDelay: 3
   completeLevelUI: {fileID: 1201762408}
 --- !u!4 &1751611850
