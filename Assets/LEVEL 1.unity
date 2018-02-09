@@ -688,6 +688,11 @@ Prefab:
       propertyPath: m_Text
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 114820674669268838, guid: 3d58d64a00155a84ea5e2109982dab6c,
+        type: 2}
+      propertyPath: lastObj
+      value: 
+      objectReference: {fileID: 1985466655}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d58d64a00155a84ea5e2109982dab6c, type: 2}
   m_IsPrefabParent: 0
@@ -937,6 +942,11 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1448962855}
   m_Script: {fileID: 11500000, guid: 45ff71beea0f07445b52484f4050e38e, type: 3}
+--- !u!4 &1985466655 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4046061091213762, guid: 7d83ea6e71e0a9647b9dc96d66d757f3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1183593153}
 --- !u!1001 &2021575601
 Prefab:
   m_ObjectHideFlags: 0
