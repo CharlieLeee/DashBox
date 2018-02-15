@@ -7,6 +7,7 @@ public class Player_Movement : MonoBehaviour {
     public float forwardForce = 2000f;
 
     public float sidewayForce = 500f;
+
     
     // Whenever use physic system, use fixed update
 	void FixedUpdate ()
@@ -23,6 +24,13 @@ public class Player_Movement : MonoBehaviour {
             rb.AddForce(-sidewayForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
         }
 
+        //if (Input.GetKey("space") && Time.deltaTime != 0)
+        //{
+            
+        //    rb.AddForce(0, 50, 0);
+        //    yield return new WaitForSeconds(3f);
+ 
+        //}
         if (rb.position.y < -0.5f)
         {
             FindObjectOfType<GameManager>().EndGame();
